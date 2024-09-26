@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Matemasie&family=Pacifico&family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(images/nature2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 0.5fr 5fr 1fr;
+}
+nav{
+    
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-right: 30px;
+}
+nav ul li {
+    list-style-type: none;
+    z-index: 1;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: aqua;
+    font-weight: bold;
+    line-height: 50px;
+}
+.logo{
+    font-size: 25px;
+    font-family: cursive;
+    color: yellow;
+    padding-left: 50px;
+    z-index: 1;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    z-index: 1;
+}
+.item1{
+    padding: 10px 50px;
+}
+.item1 h3{
+    margin-bottom: 10px;
+    font-size: 35px;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link{
+    display: grid;
+}
+.link a{
+    padding: 6px;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 23px;
+}
+.item2{
+    text-align: center;
+}
+h1{
+    padding:0px 5px 5px;
+    font-size: 50px;
+    margin-top: 140px;
+    font-family: "Dancing Script", cursive;
+    color:yellow;
+}
+.item3{
+    padding: 20px 30px;
+}
+.item3 h3{
+    color: chartreuse;
+    text-align: center;
+}
+.item3 p{
+    color: white;
+}
+.item2 p{
+    padding: 20px 50px;
+    color: #fff;
+}
+.item2 button{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: orangered;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.item1 p{
+    color: #fff;
+}
+footer{
+    
+    z-index: 1;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a{
+    padding: 0px 20px;
+}
+
+.contain{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+    display: grid;
+    grid-template-rows: 0.7fr 6fr 1fr;
+}
+.temp{
+    background-color: rgb(8, 8, 8) !important;
+    opacity:  0.6;
+    
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+aside{
+    background-color: rgb(202, 87, 49);
+}
+main{
+    background-color: darkolivegreen;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+}

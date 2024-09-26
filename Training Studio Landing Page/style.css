@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style-type: none;
+    padding: 15px;
+    line-height: 40px;
+    z-index: 1;
+}
+.item2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+}
+.item2 a:hover{
+    color: orangered;
+}
+.item1{
+    margin-top: 15px;
+    font-family:cursive ;
+    color: #fff;
+    z-index: 1;
+}
+button{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+}
+section{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.content{
+    z-index: 1;
+    color: #fff;
+}
+.content button{
+    margin-left: 220px;
+}
+h1{
+    padding: 0px 20px 20px;
+    font-size: 50px;
+    text-align: center;
+}
+span{
+    color:chartreuse;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/gym4.jpg);
+    background-color: black;
+    /* opacity: 0.4; */
+}
+.container1{
+    height: 100vh;
+    width: 100vw;
+}
+.container2{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+}
+.nav1{
+    height: 70px;
+    background-color: #3d3c3c;
+}

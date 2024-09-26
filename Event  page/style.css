@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: "Pacifico", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+/* font-family: "Dancing Script", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Matemasie&family=Pacifico&display=swap');
+/* font-family: "Matemasie", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Matemasie&family=Pacifico&family=Permanent+Marker&display=swap');
+/* font-family: "Permanent Marker", cursive; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+background-color:rgb(235, 92, 92);
+padding-right: 30px;
+height: 40px;
+display: flex;
+justify-content: space-around;
+}
+header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 50px;
+    
+}
+header .logo{
+    /* flex-grow: 2; */
+    margin-left: 150px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: yellow;
+    padding-bottom: 20px;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 22px;
+}
+nav ul li button{
+    padding: 10px;
+    line-height: 7px;
+    border-radius: 7px;
+    color: rgb(177, 80, 15);
+    border: 3px solid rgb(218, 89, 3);
+    background-color: rgb(238, 218, 204);
+}
+.main{
+    background-image: url(images/music_fest12.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+section{
+    
+    height: 410px;
+    text-align: center;
+}
+section h3{
+     padding: 10px 0px 10px;
+     font-size: 30px;
+     font-family: "Permanent Marker", cursive;
+     color: #fff;
+}
+section h1{
+    padding-bottom: 15px;
+    font-size: 60px;
+    height: 220px;
+    width: 40%;
+    margin: auto;
+    color: transparent;
+    background: repeating-linear-gradient(to top right,orangered 10%,yellow 20%,rgb(69, 243, 16) 40%);
+    background-clip: text;
+    font-family: "Dancing Script", cursive;
+}
+section .para{
+    /* border: 2px solid #dfdbdb; */
+    color: white;
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    font-size: 15px;
+}
+.para1{
+    color:red;
+    font-size: 20px;
+    font-family: "Permanent Marker", cursive;
+}
+section h4{
+    padding: 0px;
+    font-size: 25px;
+    color: rgb(15, 255, 255);
+}
+footer{
+    height: 107px;
+    background-color: rgb(71, 67, 67);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    color: #fff;
+}
+footer h3{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+.box{
+    height: 40px;
+    width: 150px;
+}
+.box img{
+    position: relative;
+    left: 15px;
+}

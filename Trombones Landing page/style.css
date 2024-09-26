@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgb(87, 84, 84);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.item1{
+    display: flex;
+    margin: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item1 span{
+    padding: 0px 5px;
+}
+.item1 h2{
+    padding: 7px 10px;
+}
+.item2 ul{
+    display: flex;
+    margin: 20px;
+}
+.item2 ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+.item2 ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+.item2 ul li a:hover{
+    background-color: rgb(241, 50, 184);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+.box{
+    margin: 20px;
+    text-align: center;
+}
+.box h1,.box input,.box button{
+    padding: 5px;
+    margin: 10px;
+}
+.box h1{
+    font-size: 35px;
+}
+.box button{
+    background-color: rgb(91, 126, 23);
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.content h2,.content p{
+    padding: 5px;
+}
+.content span img{
+    margin-right: 25px;
+}
+.box1 p{
+    text-align: justify;
+}
+body{
+    background-color: burlywood;
+}
