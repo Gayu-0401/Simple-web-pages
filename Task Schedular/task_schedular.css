@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    margin: 30px 30px;
+}
+.content{
+    display: flex;
+    margin: 20px;
+    border: 1px solid rgb(138, 137, 137);
+}
+.container{
+    border: 1px solid rgb(138, 137, 137);
+    width: 70%;
+    margin: 30px auto;
+}
+.item{
+    margin: 20px;
+}
+.btn{
+    margin-left: 300px;
+    padding: 7px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+}
