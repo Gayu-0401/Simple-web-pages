@@ -5,7 +5,7 @@
 }
 header{
     width: 100vw;
-    height: 70px;
+    min-height: 70px;
     background-color: blue;
     color: #fff;
     text-align: center;
